@@ -1,0 +1,149 @@
+.header {
+    background-color: darkgray;
+    color: blue;   
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+}
+
+.nav-bar {
+    background-color: lightgray;
+    font-size: 25px;
+    width: 100%;
+}
+
+.nav-item-selected {
+    color: blue;
+}
+
+.nav-item {
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.body {
+    background-color: lightgray;  
+}
+
+
+.footer {
+    width: 100%;
+    clear: both;
+    background-color: darkgray;
+    color: red; 
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+}
+
+.kalam {
+    font-family: 'Kalam', cursive;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive, sans-serif;
+    font-size: 25px;
+}
+
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+/* index.html */
+
+.fun-facts {
+    width: 70%;
+}
+
+.quote {
+    width: 100%;
+}
+    
+.paragraph {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+.photo-section {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 30%;
+}
+
+.photo {
+    margin: auto;
+    background-color: lightgreen;
+    height: 120px;
+    width: 240px;
+    display: block;
+}
+
+.zoom:hover {
+    transform: scale(3.0);
+}
+
+
+
+/* MyAutoSalesCars.html */
+
+.setflex {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.listofcarsforsale {
+    flex: 0 0 300px;
+    display: flex;
+    flex-flow: column wrap; 
+    /*width: 400px; */
+    float: left;}
+    
+.listsinglecar {
+    background-color: lightblue;
+    min-height: 30px;
+    margin: 5px;
+    color: red;
+    font-size: 25px;
+    float: left;
+}
+
+.cardetailist {
+    width: calc(100% - 300px); 
+    display: flow;   
+    /*width: 70%; */
+    float: right;
+    flex-flow: row wrap;  
+}
+
+.cardetail {
+    width: calc(100% - 300px); 
+    /*width: 70%; */
+    float: right;
+    font-size: 22px;
+}
+
+.carimage {
+    float: left;
+    height: 120px;
+    width: 300px;
+    margin-right: 5px;
+}
+
+.photo {
+    float: left;
+    background-color: lightgreen;
+    height: 140px;
+    width: 240px;
+  /*  display: block; */
+}
+
+
+/* MyAutoSalesContact.html */
+

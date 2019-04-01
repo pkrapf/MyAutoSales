@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>My Auto Sales Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="My Auto Sales.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <h1>My Auto Sales</h1>
+        </header>
+        
+        <nav class="nav-bar">
+            <a class="nav-item" href="./index.html">Main Page</a>
+            <a class="nav-item" href="./MyAutoSalesCars.html">Cars For Sale</a>
+            <a class="nav-item nav-item-selected" href="./MyAutoSalesContact.html">Contact Us</a>
+        </nav>
+        
+        <div>
+            <form>
+                <fieldset>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" placeholder="First Name" id="firstName">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" placeholder="Last Name" id="lastName">
+                    <br>
+                    <br>
+                    <br>
+                    <label for="emailAddress">Email Address</label>
+                    <input type="text" name="emailAddress" placeholder="Email Address" id="emailAddress">
+                    <br>
+                    <br>
+                    <br>
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" name="Phone Number" placeholder="Phone Number" id="phoneNumber">
+                    
+                    <p>Best time to contact</p>
+                    <div>
+                        <input id="morning" type="radio" name="contactTime" value="morning">
+                        <label for="morning">Morning</label>
+                        <input id="afternoon" type="radio" name="contactTime" value="afternoon">
+                        <label for="afternoon">Afternoon</label>
+                        <input id="evening" type="radio" name="contactTime" value="evening">
+                        <label for="evening">Evening</label>
+                    </div>
+                    <br>
+                    <br>
+                    <p>Information requested</p>
+                    <div>
+                        <input id="buyingACar" type="radio" name="informationRequested" value="buyingACar">
+                        <label for="buyingACar">Buying A Car</label>
+                        <input id="sellingACar" type="radio" name="informationRequested" value="sellingACar">
+                        <label for="sellingACar">SellingACar</label>
+                        <input id="other" type="radio" name="informationRequested" value="other">
+                        <label for="other">Other</label>
+                    </div>
+                    <br>
+                    <br>
+                    <textarea rows="10" cols="70">Leave a message</textarea>
+                    <br>
+                    <br>
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </div>
+        
+        <footer class="footer">
+            <div>
+                <h1>Thank you for visiting</h1>
+            </div>
+        </footer>
+        
+    </body>
+</html>
